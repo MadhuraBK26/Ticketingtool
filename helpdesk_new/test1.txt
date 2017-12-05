@@ -1,0 +1,1000 @@
+  213  mysql -u homestead -p
+  214  php artisan db:seed
+  215  php artisan migrate
+  216  mysql -h homestead -p
+  217  ls
+  218  mysql -h homestead -p
+  219  ls
+  220  exit
+  221  ls
+  222  exit
+  223  mysql -h homestead -p
+  224  ls
+  225  cd Code/
+  226  ;s
+  227  ls
+  228  cd diggicomm/
+  229  ls
+  230  php artisan migrate
+  231  ls
+  232  mysql -h homestead -p
+  233  ls
+  234  cd Code/
+  235  ls
+  236  cd diggi
+  237  cd diggicomm/
+  238  ls
+  239  mysql -h homestead -p
+  240  php artisan migrate
+  241  php artisan db:seed
+  242  ls
+  243  cd resources/
+  244  ks
+  245  ls
+  246  cd ..
+  247  ls
+  248  cd public/'
+  249  cd public/
+  250  ls
+  251  cd ..
+  252  ls
+  253  chmod -R 777 storage
+  254  ls
+  255  cd storage/
+  256  ls
+  257  cd ..
+  258  cd app/l
+  259  cd app/
+  260  ls
+  261  cd ..
+  262  ls
+  263  cd public/
+  264  ls
+  265  cd ..
+  266  cd public/
+  267  ll
+  268  chmod -R 775 index.php 
+  269  ls
+  270  ll
+  271  exit
+  272  cd Code/
+  273  ls
+  274  cd diggi
+  275  cd diggicomm/
+  276  ls
+  277  npm run dev
+  278  exit
+  279  ls
+  280  cd Code/
+  281  ls
+  282  cd helpdesk/
+  283  ls
+  284  cp example.env .env
+  285  vi .env 
+  286  chmod -R 777 storage
+  287  vi .env 
+  288  mysql -h homestead -p
+  289  ls
+  290  laravel composer update
+  291  composer update
+  292  ls
+  293  chmod -R 777 storage
+  294  php artisan migrate
+  295  ls
+  296  cd DB/
+  297  ls
+  298  vi demodatabase.sql 
+  299  cd ..
+  300  ls
+  301  cd app/
+  302  ;s
+  303  ls
+  304  cd ..
+  305  ls
+  306  cd config/
+  307  ls
+  308  vi app.php 
+  309  cd ..
+  310  ls
+  311  cd database/
+  312  ls
+  313  cd migrations/
+  314  ls
+  315  cd ..
+  316  ls
+  317  cd seeds/
+  318  ls
+  319  cd ..
+  320  ls
+  321  cd ..
+  322  ls
+  323  cd DB/
+  324  ls
+  325  cd ..
+  326  ls
+  327  vi readme.txt 
+  328  clear
+  329  vi .env 
+  330  ls
+  331  php artisan migrate
+  332  vi release-notes.txt 
+  333  composer updatels
+  334  ls
+  335  clear
+  336  ls
+  337  vi composer.json 
+  338  cd nbproject/
+  339  ls
+  340  cd ..
+  341  ls
+  342  cd database/
+  343  ls
+  344  cd ..
+  345  ls
+  346  cd app/
+  347  ls
+  348  cd ..
+  349  ls
+  350  vi artisan 
+  351  ls
+  352  cd DB/
+  353  s
+  354  ls
+  355  vi demodatabase.sql 
+  356  cd ..
+  357  ls
+  358  mysql -h homestead -p
+  359  php artisan migrate
+  360  vi .env 
+  361  php artisan migrate
+  362  ls
+  363  cd app/
+  364  ;s
+  365  ls
+  366  cd ..
+  367  cd config/
+  368  ls
+  369  vi database.php 
+  370  cd ..
+  371  ls
+  372  php artisan migrate
+  373  php artisan env
+  374  php artisan migrate --help
+  375  php artisan migrate
+  376  vi config/database.php 
+  377  vi .env 
+  378  cd ..
+  379  ls
+  380  cd diggi
+  381  cd diggicomm/
+  382  ls
+  383  vi .env
+  384  cd ..
+  385  ls
+  386  cd helpdesk/
+  387  ls
+  388  vi .env 
+  389  php artisan migrate
+  390  php artisan db:seed
+  391  vi .env 
+  392  mysql -h homestead -p
+  393  ls
+  394  exit
+  395  sudo apt-get install php7.0-mcrypt
+  396  sudo apt-get update
+  397  sudo apt-get install php7.0-mcrypt
+  398  sudo service nginx restart
+  399  cd Code/
+  400  ;s
+  401  ls
+  402  cd helpdesk/
+  403  ls
+  404  cd config/
+  405  ls
+  406  php -m | grep mcrypt
+  407  ls
+  408  vi app.php 
+  409  vi .env
+  410  cd ..
+  411  ls
+  412  vi .env 
+  413  smtp
+  414  vi .env 
+  415  cd config/
+  416  ls
+  417  vi mail.php 
+  418  vi app.php 
+  419  vi services.php 
+  420  cd ..
+  421  vi .env
+  422  cd app/
+  423  ls
+  424  cd ..
+  425  cd config/
+  426  ls
+  427  vi mail.php 
+  428  ls
+  429  vi app.php 
+  430  cd ..
+  431  ls
+  432  vi .env
+  433  cd helpdesk/
+  434  ;s
+  435  ls
+  436  vi .env 
+  437  php artisan key:generate
+  438  vi .env 
+  439  php artisan key:generate
+  440  cd config
+  441  vi app.php 
+  442  cd ..
+  443  ls
+  444  php -v
+  445  sudo apt-get install php7.0-mcrypt
+  446  sudo apt-get install php7.1-mcrypt
+  447  ls
+  448  vagrant halt
+  449  exit
+  450  cd Code/
+  451  ls
+  452  cd helpdesk/
+  453  ls
+  454  cd public/
+  455  ls
+  456  chmod -R 775 index.php 
+  457  cd /var/log/nginx/
+  458  ls
+  459  tail -f helpdesk.app-error.log
+  460  ls
+  461  cd 
+  462  cd Code/
+  463  ls
+  464  cd helpdesk/
+  465  ls
+  466  ll
+  467  chmod -R 777 storage/
+  468  composer update
+  469  ls
+  470  rm -rf vendor/
+  471  composer install
+  472  sudo service nginx restart
+  473  ls
+  474  vi .env 
+  475  cd config/
+  476  ls
+  477  vi app.php 
+  478  cd ..
+  479  ls
+  480  cd app/
+  481  ls
+  482  cd Providers/
+  483  ;s
+  484  ls
+  485  vi AppServiceProvider.php 
+  486  cd ..
+  487  ls
+  488  cd Http/
+  489  s
+  490  ;s
+  491  ls
+  492  vi Kernel.php 
+  493  cd ..
+  494  ls
+  495  cd ..
+  496  ls
+  497  cd config/
+  498  ls
+  499  vi app.php 
+  500  locate HtmlServiceProvider.php
+  501  ls
+  502  cd ..
+  503  cd vendor/
+  504  ls
+  505  cd laravelcollective/
+  506  cd html/
+  507  ls
+  508  cd src/
+  509  ls
+  510  vi HtmlServiceProvider.php 
+  511  cd ..
+  512  ls
+  513  cd ..
+  514  ls
+  515  cd ..
+  516  ls
+  517  composer dump autoload
+  518  composer dump-autoload
+  519  cd vendor/illuminate/
+  520  ls
+  521  cd html/
+  522  ls
+  523  vi HtmlServiceProvider.php 
+  524  ls
+  525  cd ..
+  526  ls
+  527  cd ..
+  528  ls
+  529  vi LICENSE 
+  530  mysql -h homestead -p
+  531  ls
+  532  cd database/
+  533  s
+  534  ls
+  535  cd seeds/
+  536  ls
+  537  vi DatabaseSeeder.php 
+  538  clear
+  539  ls
+  540  cd ..
+  541  ls
+  542  cd ..
+  543  ls
+  544  cd DB/
+  545  ls
+  546  vi demodatabase.sql 
+  547  ls
+  548  vi Read\ Me.txt 
+  549  ls
+  550  cd ..
+  551  ls
+  552  cd config/
+  553  ls
+  554  chmod -R 777 database.php 
+  555  ls
+  556  chmod -R 775 database.php 
+  557  ls
+  558  cd ..
+  559  ls
+  560  cd database/
+  561  ls
+  562  cd ..
+  563  ls
+  564  cd DB/
+  565  ls
+  566  mysql -u homestead -p helpdesk<demodatabase.sql
+  567  ls
+  568  mysql -u homestead -p helpdesk
+  569  cd ..
+  570  ls
+  571  vi .env
+  572  cd vendor/
+  573  ls
+  574  cd ..
+  575  ls
+  576  composer require mews/purifier
+  577  ls
+  578  cd vendor/
+  579  ;ls
+  580  ;s
+  581  ls
+  582  cd laravelcollective/
+  583  ls
+  584  cd html/
+  585  s
+  586  ls
+  587  cd src/
+  588  ls
+  589  vi HtmlServiceProvider.php 
+  590  cd ..
+  591  ls
+  592  cd ..
+  593  ls
+  594  cd ..
+  595  composer dump-autoload
+  596  vi vendor/laravelcollective/html/src/HtmlServiceProvider.php 
+  597  service nginx restart
+  598  sudo service nginx restart
+  599  ls
+  600  chmod -R 777 storage/
+  601  cd public/
+  602  ls
+  603  cd ..
+  604  ls
+  605  vi /var/log/nginx/helpdesk.app-error.log 
+  606  tail -f /var/log/nginx/helpdesk.app-error.log
+  607  ls
+  608  vi composer.json 
+  609  composer update
+  610  composer dump-autoload
+  611  tail -f /var/log/nginx/helpdesk.app-error.log 
+  612  ls
+  613  rm -rf vendor
+  614  composer install
+  615  cd vendor/
+  616  ;s
+  617  ls
+  618  cd bugsnag/
+  619  ls
+  620  cd bugsnag-laravel/
+  621  ls
+  622  cd src/
+  623  ls
+  624  vi BugsnagServiceProvider.php 
+  625  vi /home/vagrant/Code/helpdesk/app/Exceptions/Handler.php
+  626  vi BugsnagServiceProvider.php 
+  627  vi /home/vagrant/Code/helpdesk/app/Exceptions/Handler.php
+  628  cd ..
+  629  ls
+  630  cd ..
+  631  ls
+  632  composer dump-autoload
+  633  tail -f /var/log/nginx/helpdesk.app-error.log 
+  634  ;s
+  635  vi /home/vagrant/Code/helpdesk/app/Exceptions/Handler.php
+  636  tail -f /var/log/nginx/helpdesk.app-error.log 
+  637  vi /home/vagrant/Code/helpdesk/app/Exceptions/Handler.php
+  638  ls
+  639  vi composer.json 
+  640  rm -rf vendor
+  641  composer install
+  642  php artisan vendor:publish --provider="Bugsnag\BugsnagLaravel\BugsnagServiceProvider"
+  643  php artisan config:cache
+  644  exit
+  645  tail -f /var/log/nginx/helpdesk.app-error.log 
+  646  ls
+  647  cd Code/
+  648  ls
+  649  cd helpdesk/
+  650  ls
+  651  rm -rf vendor
+  652  laravel composer install
+  653  composer install
+  654  ls
+  655  cd vendor/
+  656  ls
+  657  cd ..
+  658  ls
+  659  composer dump-autoload
+  660  chmod -R 777 storage/
+  661  ls
+  662  cd vendor/
+  663  ls
+  664  cd laravel
+  665  cd ..
+  666  cd laravelcollective/
+  667  ls
+  668  cd html/
+  669  ls
+  670  cd src/
+  671  ls
+  672  vi HtmlServiceProvider.php 
+  673  tail -f /var/log/nginx/helpdesk.app-error.log 
+  674  ls
+  675  cd ..
+  676  ls
+  677  cd ..
+  678  ls
+  679  cd ..
+  680  ls
+  681  cd ..
+  682  ls
+  683  chmod -R 775 vendor
+  684  laravel composer update
+  685  composer update
+  686  composer dump-autoload
+  687  vi .env 
+  688  tail -f /var/log/nginx/helpdesk.app-error.log 
+  689  ls
+  690  chmod -R 777 storage
+  691  cd vendor/
+  692  ls
+  693  cd laravelcollective/
+  694  ls
+  695  cd html/
+  696  ls
+  697  cd src/
+  698  ls
+  699  vi HtmlServiceProvider.php 
+  700  exit
+  701  cd Code/
+  702  ;s
+  703  ls
+  704  cd helpdesk/
+  705  ls
+  706  cd vendor/
+  707  ls
+  708  cd laravel
+  709  ls
+  710  cd framework/
+  711  ls
+  712  cd src/
+  713  ls
+  714  cd Illuminate/
+  715  ls
+  716  cd ..
+  717  ls
+  718  cd ..
+  719  ls
+  720  cd ..
+  721  ls
+  722  cd vendor/
+  723  ls
+  724  cd laravelcollective/
+  725  ls
+  726  cd html/
+  727  ls
+  728  cd src/
+  729  ls
+  730  vi HtmlServiceProvider.php 
+  731  ls
+  732  cd ..
+  733  ls
+  734  cd ..
+  735  ls
+  736  cd ..
+  737  ls
+  738  cd ..
+  739  ls
+  740  laravel composer auto-load
+  741  composer auto-load
+  742  composer dump-autoload
+  743  ls
+  744  cd vendor/
+  745  ls
+  746  cd laravelcollective/
+  747  ls
+  748  cd html/
+  749  ls
+  750  cd src/
+  751  ls
+  752  vi HtmlServiceProvider.php 
+  753  cd ..
+  754  ls
+  755  cd ..
+  756  ls
+  757  cd ..
+  758  ls
+  759  cd ..
+  760  ls
+  761  chmod -R 777 vendor
+  762  ls -l
+  763  cd vendor/
+  764  ls
+  765  ls -l
+  766  composer update
+  767  cd ..
+  768  composer update
+  769  composer dump-autoload
+  770  ls
+  771  cd vendor/
+  772  ls
+  773  cd laravelcollective/
+  774  ;s
+  775  ls
+  776  cd html/
+  777  ls
+  778  cd src/
+  779  ls
+  780  vi HtmlServiceProvider.php 
+  781  cd ..
+  782  ;s
+  783  ls
+  784  rm -rf vendor
+  785  composer clear-cache
+  786  composer install
+  787  ;s
+  788  ls
+  789  cd vendor/
+  790  ls
+  791  cd ..
+  792  ls
+  793  cd vendor/
+  794  ls
+  795  cd laravel
+  796  cd ..
+  797  cd laravelcollective/
+  798  ls
+  799  cd html/
+  800  ls
+  801  cd src/
+  802  ls
+  803  vi HtmlServiceProvider.php 
+  804  cd ..
+  805  ls
+  806  cd ..
+  807  composer update
+  808  ls
+  809  chmod -R 777 storage
+  810  vi /home/vagrant/Code/helpdesk/resources/views/themes/default1/client/layout/client.blade.php
+  811  ls
+  812  cd vendor/
+  813  ls
+  814  cd laravelcollective/
+  815  ls
+  816  cd html/
+  817  ls
+  818  cd src/
+  819  ls
+  820  vi HtmlServiceProvider.php 
+  821  cp HtmlServiceProvider.php HtmlServiceProvider1.php 
+  822  vi HtmlServiceProvider.php 
+  823  rm HtmlServiceProvider1.php 
+  824  vi HtmlServiceProvider.php 
+  825  cd ..
+  826  cd..
+  827  cd  ..
+  828  vi composer.json
+  829  cd vendor/laravelcollective/html
+  830  vi HtmlServiceProvider.php
+  831  cd src
+  832  vi HtmlServiceProvider.php
+  833  cd ..
+  834  php artisan clear-compiled
+  835  sudo composer.json
+  836  grep -r "bindShared()"  vendor
+  837  grep -r "singleton()"  vendor
+  838  grep -r "singleton("  vendor
+  839  grep -r "bindShared("  vendor
+  840  vi vendor/illuminate/html/HtmlServiceProvider.php 
+  841  cd vendor/
+  842  ls
+  843  mkdir htmlpurifier
+  844  ls
+  845  cd htmlpurifier/
+  846  mkdir library
+  847  ls
+  848  wget http://htmlpurifier.org/releases/htmlpurifier-4.9.3.zip
+  849  unzip htmlpurifier-4.9.3.zip 
+  850  ls
+  851  cd htmlpurifier-4.9.3/
+  852  ls
+  853  cd library/
+  854  ls
+  855  cd ..
+  856  ls
+  857  cd ..
+  858  ls
+  859  rm htmlpurifier-4.9.3.zip 
+  860  rm -rf library
+  861  ls
+  862  mv htmlpurifier-4.9.3 ./
+  863  ls
+  864  mv htmlpurifier-4.9.3 ../
+  865  ls
+  866  cd ..
+  867  ls
+  868  rm -rf htmlpurifier
+  869  mv htmlpurifier-4.9.3 htmlpurifier
+  870  ls
+  871  cd htmlpurifier/
+  872  ls
+  873  exit
+  874  ls
+  875  tail -f /var/log/nginx/helpdesk.app-error.log 
+  876  ls
+  877  crontab -e
+  878  ls
+  879  crontab -l
+  880  sudo crontab -e
+  881  exit
+  882  exut
+  883  exit
+  884  quit
+  885  exit
+  886  ls
+  887  cd Code/
+  888  ls
+  889  cd helpdesk/
+  890  ls
+  891  vi .env 
+  892  s
+  893  ls
+  894  crontab -e
+  895  vim crontab -e
+  896  ls
+  897  crontab -e
+  898  vim crontab -e
+  899  fg 
+  900  sudo vim crontab -e
+  901  sudo crontab -e
+  902  sudo vim crontab -e
+  903  sudo crontab -e
+  904  fg
+  905  clear
+  906  sudo vim crontab -e
+  907  service nginx restart
+  908  sudo service nginx restart
+  909  ls
+  910  tail -f /var/log/nginx/helpdesk.app-error.log 
+  911  ls
+  912  cd app/
+  913  ls
+  914  cd Http/
+  915  ;s
+  916  ls
+  917  cd Controllers/
+  918  ls
+  919  cd Admin/
+  920  ls
+  921  cd helpdesk/
+  922  ls
+  923  cd ..
+  924  ls
+  925  vi MailFetch.php 
+  926  cd ..
+  927  ls
+  928  cd Common/
+  929  ls
+  930  cd ..
+  931  ls
+  932  cd Auth/
+  933  ls
+  934  vi UserController.php 
+  935  cd ..
+  936  ls
+  937  ks
+  938  ls
+  939  cd ..
+  940  ls
+  941  cd ..
+  942  ls
+  943  cd Providers/
+  944  ls
+  945  cd ..
+  946  ls
+  947  cd Http/
+  948  ls
+  949  cd Middleware/
+  950  ls
+  951  vi Authenticate.php 
+  952  cd ..
+  953  ls
+  954  cd Middleware/
+  955  ls
+  956  cd ..
+  957  ls
+  958  vi routes.php 
+  959  ls
+  960  clear
+  961  ls
+  962  ls -l
+  963  exit
+  964  ls
+  965  cd Code/
+  966  ls
+  967  cd helpdesk/
+  968  ls
+  969  cd app/
+  970  ls
+  971  cd H
+  972  cd Http/
+  973  s
+  974  ls
+  975  vi routes.php 
+  976  clear
+  977  ls
+  978  cd Controllers/
+  979  ls
+  980  cd Auth/
+  981  ls
+  982  vi AuthController.php 
+  983  ls
+  984  vi UserController.php 
+  985  ls
+  986  cd ..
+  987  ls
+  988  cd ..
+  989  ls
+  990  cd Middleware/
+  991  ls
+  992  vi Authenticate.php 
+  993  vi Install.php 
+  994  cd ..
+  995  ls
+  996  cd Middleware/
+  997  ls
+  998  cd ..
+  999  ls
+ 1000  vi routes.php 
+ 1001  cd ..
+ 1002  ls
+ 1003  php artisan route:list
+ 1004  ls
+ 1005  vi app/Http/routes.php 
+ 1006  php artisan route:list
+ 1007  vi app/Http/routes.php 
+ 1008  ls
+ 1009  cd Code/
+ 1010  ls
+ 1011  cd desk/
+ 1012  ls
+ 1013  chmod -R 777 storage
+ 1014  composer install
+ 1015  ls
+ 1016  cd vendor/
+ 1017  ls
+ 1018  cd ..
+ 1019  ls
+ 1020  vi composer.json 
+ 1021  composer update
+ 1022  ls
+ 1023  cd ..
+ 1024  ls
+ 1025  cd ..
+ 1026  ls
+ 1027  locate deskapp.log
+ 1028  exit
+ 1029  ls
+ 1030  vi /var/log/nginx/desk.app-error.log 
+ 1031  ls
+ 1032  cd Code/
+ 1033  ls
+ 1034  cd desk/
+ 1035  ls
+ 1036  vi .env 
+ 1037  cd config
+ 1038  vi app.php 
+ 1039  exit
+ 1040  ls
+ 1041  cd Code/
+ 1042  cd desk/
+ 1043  ls
+ 1044  php artisan clear
+ 1045  ls
+ 1046  composer dump-autoload
+ 1047  ls
+ 1048  vi composer.json 
+ 1049  composer update
+ 1050  ls
+ 1051  cd vendor/
+ 1052  ls
+ 1053  cd laravelcollective/
+ 1054  ls
+ 1055  cd html/
+ 1056  ls
+ 1057  cd src/
+ 1058  ls
+ 1059  vi HtmlServiceProvider.php 
+ 1060  cd ..
+ 1061  ls
+ 1062  cd ..
+ 1063  ls
+ 1064  cd ..
+ 1065  cd laravel
+ 1066  ls
+ 1067  cd framework/
+ 1068  ls
+ 1069  cd src/
+ 1070  ls
+ 1071  cd Illuminate/
+ 1072  ls
+ 1073  cd H
+ 1074  cd ..
+ 1075  ls
+ 1076  vi /var/log/nginx/desk.app-error.log 
+ 1077  ls
+ 1078  cd ..
+ 1079  ls
+ 1080  php artisan config:cache
+ 1081  vi composer.json 
+ 1082  clear
+ 1083  cd ..
+ 1084  cd helpdesk/
+ 1085  ls
+ 1086  vi /var/log/nginx/helpdesk.app-error.log 
+ 1087  tail -f /var/log/nginx/helpdesk.app-error.log 
+ 1088  tail -f 200 /var/log/nginx/helpdesk.app-error.log 
+ 1089  ls
+ 1090  cd vendor/
+ 1091  ls
+ 1092  cd monolog/
+ 1093  ls
+ 1094  cd monolog/
+ 1095  ls
+ 1096  cd src/
+ 1097  ls
+ 1098  cd Monolog/
+ 1099  ls
+ 1100  vi Logger.php 
+ 1101  cd ..
+ 1102  ls
+ 1103  cd..
+ 1104  cd ..
+ 1105  ls
+ 1106  cd ..
+ 1107  ls
+ 1108  cd ..
+ 1109  ks
+ 1110  cd ..
+ 1111  ks
+ 1112  ls
+ 1113  cd app/
+ 1114  cd Http/
+ 1115  ls
+ 1116  vi routes.php 
+ 1117  ls
+ 1118  cd Controllers/
+ 1119  ls
+ 1120  cd Agent/
+ 1121  ls
+ 1122  cd ..
+ 1123  ls
+ 1124  cd Admin/
+ 1125  ls
+ 1126  cd ..
+ 1127  ls
+ 1128  cd ..
+ 1129  ls
+ 1130  cd ..
+ 1131  ls
+ 1132  cd ..
+ 1133  ls
+ 1134  cd desk/
+ 1135  ls
+ 1136  cd app/
+ 1137  ls
+ 1138  cd Http/
+ 1139  ls
+ 1140  vi routes.php 
+ 1141  cd ..
+ 1142  ls
+ 1143  cd ..
+ 1144  ks
+ 1145  cd ..
+ 1146  ls
+ 1147  cd helpdesk/
+ 1148  ls
+ 1149  cd app/
+ 1150  cd Http/
+ 1151  ls
+ 1152  cd Controllers/
+ 1153  cd ..
+ 1154  vi routes.php 
+ 1155  cd Controllers/
+ 1156  ls
+ 1157  cd Auth/
+ 1158  ls
+ 1159  vi UserController.php 
+ 1160  ls
+ 1161  vi AuthController.php 
+ 1162  cd ..
+ 1163  ks
+ 1164  cd ..
+ 1165  ls
+ 1166  vi routes.php 
+ 1167  cd Controllers/
+ 1168  ls
+ 1169  vi Auth/
+ 1170  cd Auth/
+ 1171  ls
+ 1172  vi AuthController.php 
+ 1173  cd ..
+ 1174  ls
+ 1175  cd ..
+ 1176  ls
+ 1177  cd ..
+ 1178  ls
+ 1179  cd ..
+ 1180  ls
+ 1181  cd resources/views/
+ 1182  ls
+ 1183  cd auth/
+ 1184  ls
+ 1185  cu login.blade.php 
+ 1186  vi login.blade.php 
+ 1187  cd ..
+ 1188  ks
+ 1189  ls
+ 1190  cd themes/
+ 1191  ls
+ 1192  cd default1/
+ 1193  ls
+ 1194  cd login/
+ 1195  ls
+ 1196  cd ..
+ 1197  ls
+ 1198  cd layouts/
+ 1199  ls
+ 1200  vi login.blade.php 
+ 1201  vi kb.blade.php 
+ 1202  ls
+ 1203  vi admin.blade.php 
+ 1204  ls
+ 1205  vi agent.blade.php 
+ 1206  vi admin.blade.php 
+ 1207  history
+ 1208  cd ..
+ 1209  ls
+ 1210  cd ..
+ 1211  cd helpdesk/
+ 1212  history >test1.txt

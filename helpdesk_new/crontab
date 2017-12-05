@@ -1,0 +1,2 @@
+/usr/bin/php-cli -q  /home/vagrant/Code/helpdesk/artisan schedule:run >> /dev/null 2>&1
+
